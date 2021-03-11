@@ -1,0 +1,44 @@
+.login{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: rgb(143,229,175);
+    background: rgb(143,229,175);
+background: linear-gradient(0deg, rgba(143,229,175,1) 0%, rgba(89,14,142,1) 0%, rgba(0,0,0,1) 0%, rgba(126,40,187,1) 77%); 
+}
+
+.login > img{
+    width: 60%;
+    border-radius: 99px;
+    
+}
+
+.login > a{
+    padding: 20px;
+    border-radius: 99px;
+    background-color: #1db954;
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+    -webkit-animation: bounce .3s infinite alternate;
+    -moz-animation: bounce .3s infinite alternate;
+    animation: bounce 1s infinite alternate;
+
+}
+
+.login > a:hover{
+    color: rgba(89,14,142,1);
+    
+}
+
+
+
+@-webkit-keyframes bounce {
+    to { -webkit-transform: scale(1.2); }
+  }
+  @-moz-keyframes bounce {
+    to { -moz-transform: scale(1.2); }
+  }
+  @keyframes bounce {
+    to { transform: scale(1.2); }
+  }
